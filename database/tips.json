@@ -1,0 +1,32 @@
+{
+  "preparation": [
+    {
+      "title": "Maak een noodpakket",
+      "text": "Zorg voor water, houdbaar eten, zaklamp, radio en batterijen."
+    },
+    {
+      "title": "Check je verzekering",
+      "text": "Controleer of je verzekerd bent tegen waterschade."
+    }
+  ],
+  "during": [
+    {
+      "title": "Ga naar boven",
+      "text": "Zoek bij een overstroming direct een hoge plek op, zoals de zolder."
+    },
+    {
+      "title": "Sluit gas en stroom af",
+      "text": "Voorkom kortsluiting en brand."
+    }
+  ],
+  "garden": [
+    {
+      "title": "Tegels eruit, groen erin",
+      "text": "Vervang tegels door planten zodat water de grond in kan."
+    },
+    {
+      "title": "Regenton",
+      "text": "Vang regenwater op voor gebruik in de tuin."
+    }
+  ]
+}

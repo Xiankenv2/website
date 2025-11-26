@@ -1,0 +1,14 @@
+{
+  "satisfaction": [
+    { "category": "Zeer veilig", "percentage": 45 },
+    { "category": "Veilig", "percentage": 40 },
+    { "category": "Neutraal", "percentage": 10 },
+    { "category": "Onveilig", "percentage": 5 }
+  ],
+  "issues": [
+    { "type": "Straat onder water", "count": 120 },
+    { "type": "Kelder onder water", "count": 45 },
+    { "type": "Lekkend dak", "count": 30 },
+    { "type": "Geen overlast", "count": 200 }
+  ]
+}

@@ -1,0 +1,18 @@
+[2025-11-26T18:13:42.140Z] [ACTION] REGISTER_SUCCESS: {"username":"test","role":"researcher"}
+[2025-11-26T18:13:56.956Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"researcher"}
+[2025-11-26T18:14:20.636Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T18:14:28.661Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T18:16:20.200Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T18:18:14.123Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T18:18:20.264Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"researcher"}
+[2025-11-26T19:22:08.878Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T19:22:11.076Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T19:22:18.581Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T19:22:20.211Z] [ACTION] LOGIN_FAILED: {"username":"admin","reason":"Invalid password"}
+[2025-11-26T19:24:51.076Z] [ACTION] LOGIN_FAILED: {"username":"test","reason":"Invalid password"}
+[2025-11-26T19:24:53.225Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"researcher"}
+[2025-11-26T19:25:07.016Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"researcher"}
+[2025-11-26T19:27:25.659Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"researcher"}
+[2025-11-26T19:27:59.816Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"admin"}
+[2025-11-26T19:28:19.529Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"admin"}
+[2025-11-26T20:00:19.739Z] [ACTION] LOGIN_SUCCESS: {"username":"test","role":"admin"}

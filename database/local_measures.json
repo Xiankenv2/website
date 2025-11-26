@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "city": "Rotterdam",
+    "measure": "Waterplein Benthemplein",
+    "description": "Een plein dat bij droog weer een sportveld is en bij regen water opvangt.",
+    "type": "Waterplein"
+  },
+  {
+    "id": 2,
+    "city": "Nijmegen",
+    "measure": "Nevengeul Spiegelwaal",
+    "description": "Extra geul voor de Waal om hoogwater op te vangen en recreatie te bieden.",
+    "type": "Rivierverruiming"
+  },
+  {
+    "id": 3,
+    "city": "Amsterdam",
+    "measure": "Groene Daken",
+    "description": "Subsidie voor groene daken om regenwater vast te houden.",
+    "type": "Vergroening"
+  }
+]

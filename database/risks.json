@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "belowSeaLevelPercentage": 26,
+    "floodPronePercentage": 59,
+    "protectedPopulation": "9 miljoen"
+  },
+  "areas": [
+    {
+      "name": "Rivierengebied",
+      "risk": "Hoogwater door smeltwater en regen uit het achterland.",
+      "protection": "Dijken, Ruimte voor de Rivier"
+    },
+    {
+      "name": "Kustgebied",
+      "risk": "Zeespiegelstijging en stormvloed.",
+      "protection": "Duinen, dijken, stormvloedkeringen"
+    },
+    {
+      "name": "Polders",
+      "risk": "Wateroverlast door hevige regen en kwel.",
+      "protection": "Gemalen, waterberging"
+    }
+  ]
+}

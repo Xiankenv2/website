@@ -1,0 +1,21 @@
+{
+  "temperatureTrend": [
+    { "year": 1950, "temp": 9.3 },
+    { "year": 1960, "temp": 9.4 },
+    { "year": 1970, "temp": 9.5 },
+    { "year": 1980, "temp": 9.7 },
+    { "year": 1990, "temp": 10.1 },
+    { "year": 2000, "temp": 10.4 },
+    { "year": 2010, "temp": 10.6 },
+    { "year": 2020, "temp": 11.0 },
+    { "year": 2023, "temp": 11.2 }
+  ],
+  "precipitation": [
+    { "year": 1950, "days": 15 },
+    { "year": 1970, "days": 18 },
+    { "year": 1990, "days": 22 },
+    { "year": 2010, "days": 26 },
+    { "year": 2023, "days": 30 }
+  ],
+  "summary": "De gemiddelde temperatuur in Nederland stijgt en extreme neerslag neemt toe."
+}

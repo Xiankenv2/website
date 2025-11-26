@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "$2b$10$0xMr8emlkO/vprN13HZUEOsDDMx/s3T7ydFLtgKbSrSAenUEpK6SjtC0E.Ya",
+    "role": "admin",
+    "department": "IT"
+  },
+  {
+    "id": 2,
+    "username": "onderzoeker",
+    "password": "$2b$10$JVFvP5dAUbBPv7HSgC6N/epT",
+    "role": "researcher",
+    "department": "Waterveiligheid"
+  },
+  {
+    "id": 3,
+    "username": "test",
+    "password": "$2b$10$yysjolX4S49rtKSCuM9otOVdm0jCflLRXC81On/rAYmD/Opeo4ejm",
+    "role": "admin",
+    "department": "General"
+  }
+]

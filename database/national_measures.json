@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Deltawerken",
+    "description": "Wereldberoemd verdedigingssysteem tegen hoogwater uit zee.",
+    "year": "1953-1997",
+    "status": "Voltooid (onderhoud)",
+    "image": "deltawerken.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ruimte voor de Rivier",
+    "description": "Meer ruimte geven aan rivieren om hoge waterstanden veilig af te voeren.",
+    "year": "2007-2018",
+    "status": "Voltooid",
+    "image": "ruimte-rivier.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Afsluitdijk Versterking",
+    "description": "Versterking en vernieuwing van de Afsluitdijk voor de toekomst.",
+    "year": "2019-2025",
+    "status": "In uitvoering",
+    "image": "afsluitdijk.jpg"
+  }
+]

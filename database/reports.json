@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Staat van Ons Water 2023",
+    "summary": "Jaarlijks rapport over de waterveiligheid en waterkwaliteit in Nederland.",
+    "year": 2023,
+    "source": "Ministerie van IenW",
+    "theme": "Nationaal",
+    "link": "#",
+    "content": "<h2>Inleiding</h2><p>Dit rapport geeft een compleet overzicht van de waterveiligheid in Nederland in 2023.</p><h3>Belangrijkste bevindingen</h3><ul><li>99% van de dijken voldoet aan de norm</li><li>Investeringen in dijkversterking zijn toegenomen</li><li>Klimaatadaptatie krijgt meer aandacht</li></ul>"
+  },
+  {
+    "id": 2,
+    "title": "Klimaatscenario's KNMI",
+    "summary": "Verwachte veranderingen in temperatuur en neerslag tot 2100.",
+    "year": 2023,
+    "source": "KNMI",
+    "theme": "Klimaat",
+    "link": "#",
+    "content": "<h2>Klimaatverandering in Nederland</h2><p>Het KNMI heeft nieuwe scenario's ontwikkeld voor het klimaat in Nederland tot 2100.</p><p><strong>Temperatuur:</strong> stijging van 1,5 tot 3 graden mogelijk</p><p><strong>Neerslag:</strong> toename van extreme buien met 20-30%</p>"
+  },
+  {
+    "id": 3,
+    "title": "Evaluatie Hoogwater 2021",
+    "summary": "Analyse van de overstromingen in Limburg en aanbevelingen.",
+    "year": 2022,
+    "source": "Expertise Netwerk Waterveiligheid",
+    "theme": "Overstroming",
+    "link": "#",
+    "content": "<h2>Overstromingen Limburg Juli 2021</h2><p>In juli 2021 viel er in korte tijd extreem veel regen in Zuid-Limburg.</p><h3>Gevolgen</h3><ul><li>Duizenden evacuaties</li><li>Grote materiële schade</li><li>Beekdalen vol water</li></ul><h3>Aanbevelingen</h3><p>Het rapport beveelt aan om meer ruimte te geven aan beken en om waarschuwingssystemen te verbeteren.</p>"
+  }
+]
