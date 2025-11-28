@@ -1,15 +1,21 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
+
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+
 import Home from './pages/Home';
 import Climate from './pages/Climate';
 import NationalMeasures from './pages/NationalMeasures';
 import LocalMeasures from './pages/LocalMeasures';
 import Reports from './pages/Reports';
 import ReportDetail from './pages/ReportDetail';
+
 import Config from './pages/Config';
+import AddOnderzoek from './pages/AddOnderzoek';
+
+
 import Tips from './pages/Tips';
 import Prevention from './pages/Prevention';
 import Emergency from './pages/Emergency';
@@ -18,6 +24,9 @@ import Maps from './pages/Maps';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Feedback from './pages/Feedback';
+import UserBeheer from './pages/UserBeheer';
+
+
 import './styles/global.css';
 
 const ProtectedRoute = ({ children }) => {
@@ -35,6 +44,8 @@ function App() {
           <Navigation />
           <main className="main-content">
             <Routes>
+
+              {/* Publieke pagina's */}
               <Route path="/" element={<Home />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
@@ -43,6 +54,16 @@ function App() {
               <Route path="/lokaal" element={<LocalMeasures />} />
               <Route path="/onderzoek" element={<Reports />} />
               <Route path="/rapport/:id" element={<ReportDetail />} />
+              <Route path="/tips" element={<Tips />} />
+              <Route path="/preventie" element={<Prevention />} />
+              <Route path="/noodacties" element={<Emergency />} />
+              <Route path="/enquetes" element={<Surveys />} />
+              <Route path="/kaarten" element={<Maps />} />
+              <Route path="/feedback" element={<Feedback />} />
+              <Route path="/userbeheer" element={<ProtectedRoute> <UserBeheer /> </ProtectedRoute>} />
+
+
+              {/* BEVEILIGDE pagina's */}
               <Route 
                 path="/config" 
                 element={
@@ -51,12 +72,25 @@ function App() {
                   </ProtectedRoute>
                 } 
               />
-              <Route path="/tips" element={<Tips />} />
-              <Route path="/preventie" element={<Prevention />} />
-              <Route path="/noodacties" element={<Emergency />} />
-              <Route path="/enquetes" element={<Surveys />} />
-              <Route path="/kaarten" element={<Maps />} />
-              <Route path="/feedback" element={<Feedback />} />
+
+              <Route 
+                path="/add-onderzoek" 
+                element={
+                  <ProtectedRoute>
+                    <AddOnderzoek />
+                  </ProtectedRoute>
+                }
+              />
+
+              <Route 
+                path="/edit-onderzoek/:id" 
+                element={
+                  <ProtectedRoute>
+                    <AddOnderzoek />
+                  </ProtectedRoute>
+                }
+              />
+
             </Routes>
           </main>
           <Footer />

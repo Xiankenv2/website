@@ -1,12 +1,5 @@
 [
   {
-    "id": 1,
-    "username": "admin",
-    "password": "$2b$10$0xMr8emlkO/vprN13HZUEOsDDMx/s3T7ydFLtgKbSrSAenUEpK6SjtC0E.Ya",
-    "role": "admin",
-    "department": "IT"
-  },
-  {
     "id": 2,
     "username": "onderzoeker",
     "password": "$2b$10$JVFvP5dAUbBPv7HSgC6N/epT",
@@ -14,10 +7,10 @@
     "department": "Waterveiligheid"
   },
   {
-    "id": 3,
-    "username": "test",
-    "password": "$2b$10$yysjolX4S49rtKSCuM9otOVdm0jCflLRXC81On/rAYmD/Opeo4ejm",
+    "id": 4,
+    "username": "Xiang",
+    "password": "$2b$10$iTk9MHagdPI0aIC/1A.gHejnbPQDfH9Z0AC1RiNEKaZs7uz7invFO",
     "role": "admin",
-    "department": "General"
+    "department": "IT"
   }
 ]
